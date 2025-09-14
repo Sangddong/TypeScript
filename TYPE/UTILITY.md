@@ -66,4 +66,29 @@ const searchOption3: ProductOptionPartial = { color: "red", price: 2000 }; // �
 const searchOption4: ProductOptionPartial = { color: "red" };              // ⭕️
 const searchOption5: ProductOptionPartial = {};                            // ⭕️
 ```
-
+---
+### Summary
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Pick</th>
+                <th>Omit</th>
+                <th>Partial</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Common</strong></td>
+                <td colspan="3" class="merged-cell">Create a new type from an already defined type</td>
+            </tr>
+            <tr>
+                <td><strong>Result</strong></td>
+                <td>Selects specific keys</td>
+                <td>Removes specific keys</td>
+                <td>Makes all keys optional</td>
+            </tr>
+        </tbody>
+    </table>
+</body>

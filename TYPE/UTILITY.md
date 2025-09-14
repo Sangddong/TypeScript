@@ -42,7 +42,7 @@ const ProductOptionOmit = Omit<ProductOption, 'color' | 'price'>;
 const searchOption1: ProductOptionOmit = { price: 2000, brand: "NIKE" };                              // ⭕️
 const searchOption2: ProductOptionOmit = { price: 2000, brand: "NIKE", color: "red", price: 2000 };   // ❌
 const searchOption3: ProductOptionOmit = {  color: "red", price: 2000, brand: "NIKE" };               // ❌
-const searchOption4: ProductOptionOmit = { color: "red", price: 2000 };                               // ⭕❌
+const searchOption4: ProductOptionOmit = { color: "red", price: 2000 };                               // ❌
 
 ```
 ---
